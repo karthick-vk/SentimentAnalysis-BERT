@@ -21,3 +21,5 @@ I have extracted the data from https://explorer.altmetric.com using beautiful so
 ## Results
 
 I have tried two approaches using BERT base-cased model and BERT base-uncased model to classify the sentiment of a tweet. In the first approach, I have masked the Article name in the tweet and used it in the BERT input, and in approach two, in addition to masking, I have used Article Title as an aspect and given as a second sentence to the BERT input. After many trials of fine-tuning, I found that the model using approach two in BERT base-uncased is performing better other three models (Approach 2 using BERT base-cased, Approach 1 using BERT base-cased and BERT base-uncased) as shown below.
+
+![](Screenshots/Results.JPG)
